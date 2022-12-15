@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+  font: normal 15pt "montserrat";
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 90vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header {
+  color: white;
+  padding-top: 7rem;
+  text-align: center;
+}
+
+section {
+  color: #2f2f2f;
+  background: linear-gradient(180deg, #d3cce3, #e9e4f0);
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+}
+
+#txtano {
+  border: #d3cce3 2px solid;
+}
+
+#foto {
+  padding: 15px;
+}
+
+/* #verificarbtn {
+  background: none;
+  border: #2f2f2f;
+} */
+
+#verificarbtn {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 10px;
+  transition: 0.5s;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #2f2f2f;
+  margin: 15px auto;
+  width: 100px;
+  padding: 12px 15px 12px 15px;
+  border: #d3cce3 solid 1px;
+  cursor: pointer;
+}
+
+#verificarbtn:hover {
+  color: white;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border-radius: 15px 0 15px 0;
+}
+#res {
+  padding-bottom: 15px;
+}
+footer {
+  color: white;
+  text-align: center;
+}
